@@ -1,0 +1,64 @@
+html{
+    height: 100%;
+}
+
+
+#search{
+    color: black;
+    width: 100%;
+    padding-left: 5px;
+}
+
+#main-wrapper{
+    background-color: rgb(240, 243, 247);
+    height: 100%;
+}
+
+#content h6, #info h6{
+    margin-bottom: 0px;
+}
+
+#notify a{
+    color: black;
+}
+
+#chart{
+    margin-left: 50px;
+}
+
+#navbarSupportedContent a {
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 991px){
+    #searchbox{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    #logout{
+        display: none;
+    }
+}
+@media only screen and (max-width: 450px){
+    #chart{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-height: 1355px){
+    .responsiveadds{
+        display: inline-block;
+    }
+}
+
+@media only screen and (height: 1366px){
+    .responsiveadds{
+        margin-bottom: 30px;
+        margin-top: 13px;
+    }
+}
